@@ -1,0 +1,16 @@
+# lecturer material and local reference copies
+_baseline/
+*.pdf
+
+# too big for GitHub (100 MB limit)
+*.weights
+*.h5
+
+# sample photos: replace with your own and commit only blurred/anonymised outputs
+09-face-detection/*.jpg
+10-object-detection/*.jpg
+
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+.DS_Store
