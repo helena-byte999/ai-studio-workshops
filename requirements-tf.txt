@@ -1,0 +1,10 @@
+# For the TensorFlow/Keras workshops (5-8, 10, 11). On Python 3.14 `tensorflow` currently installs a
+# 2.22 release candidate (no stable release exists for 3.14 yet). Create a separate environment:
+#   python3 -m venv .venv-tf && source .venv-tf/bin/activate && pip install -r requirements-tf.txt
+tensorflow
+tensorflow-datasets
+pandas
+scikit-learn
+matplotlib
+jupyterlab
+ipykernel

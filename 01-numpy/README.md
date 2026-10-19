@@ -18,9 +18,11 @@ Rounded figures taken from 12 months of my own bank statements across two accoun
 - 01-numpy.ipynb
 
 ## Results (first run; re-run the notebook to reproduce)
-All inputs are invented (start £2,000; rent £455 in weeks 1, 5, 9; pay about £70/week; groceries about £35; going out about £45; a £60 to £200 surprise cost 1 week in 10). Replace them with your own.
-- **A typical term looks fine, the tail does not:** median end balance about £188, but the 5th to 95th percentile range is −£145 to £450, and **16.9%** of terms go below zero at some point.
-- **It all happens late:** no term goes negative before week 9, the week the third rent payment lands in my assumed schedule.
-- **A cap of about £38 a week** on going out, transport and other brings the risk under 5% (4.8%), spending about £33 a week on average instead of £45.
-- **Knife-edge:** £500 less starting money takes the risk to 98%; without surprise costs it would be 0.2%. Hold a buffer for surprises.
-- **Caveats:** invented numbers; weekly amounts drawn independently (real overspending clusters, so true risk is probably higher); no overdraft or interest.
+Rounded inputs from my own bank statements (across two accounts, three terms of 14, 21 and 13 weeks). No merchants, names or account details appear.
+- **I run each term near zero**, so with funding and pay only I'd run out in all three terms; the useful question is how much cash I need on hand.
+- **Cash needed, typical / bad case (1 term in 20):** Term 1 about £4,600 / £5,900; Term 2 about £4,300 / £5,300; Term 3 about £1,050 / £1,850.
+- **Term 1 is driven by planned payments** (£2,300 of its need); **Term 2 by everyday spending**; **Term 3 is cheapest**, helped by a three-week internship (about £763, 45% of that term's expected spending).
+- **Lumpy spending costs about £1,000** over an average-week budget in every term.
+- **A £100-a-week cap on everyday spending** cuts the bad-case need by 40% to 57%.
+- **Rent:** funding covers about 79% of it, leaving a gap of about £1,250 a year.
+- **Caveats:** one person's year; the two accounts' weekly spending is added as if independent; 13 to 21 weeks per term; planned payments may not repeat.
