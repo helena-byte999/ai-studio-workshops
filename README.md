@@ -1,6 +1,6 @@
 # AI Studio workshops: real-life edition
 
-**Progress: 36% (5 of 14 twists done: 4-1, 4-2, 3-1, 3-2, 3-3)**
+**Progress: 50% (7 of 14 twists done: 1, 2, 3-1, 3-2, 3-3, 4-1, 4-2)**
 
 Coursework for the AI Studio module (KV7004). Each workshop starts from the lecturer's baseline code and is re-pointed at a real-life problem, with a short write-up of what changed and what I learned. The lecturer's PDFs, slides and unmodified notebooks are not published; they live in `_baseline/` (git-ignored).
 
@@ -8,8 +8,8 @@ Status key: 🟩 done or runs · 🟨 partial or needs Colab · 🟥 not done or
 
 | # | Workshop | Baseline run | Twist | Real-life problem |
 |---|---|---|---|---|
-| 1 | [Python & NumPy](01-numpy/) | 🟥 no baseline notebook: port from the PDF | 🟥 | Will I run out of money before the end of term? |
-| 2 | [Pandas DataFrames](02-pandas/) | 🟩 runs clean locally (22 code cells) | 🟥 | Which countries depend most on a single food, and how has that shifted since 1961? |
+| 1 | [Python & NumPy](01-numpy/) | 🟩 condensed port of the PDF's NumPy/Matplotlib examples; runs clean locally | 🟩 done: lumpy-spending simulation calibrated on rounded real figures | Will I run out of money before the end of term? |
+| 2 | [Pandas DataFrames](02-pandas/) | 🟩 runs clean locally (22 code cells) | 🟩 done: cleaned FAO data, staple dependence, cereals to feed | Which countries depend most on a single staple food, and how has that shifted since 1961? |
 | 3-1 | [Linear regression](03-1-linear-regression/) | 🟩 runs locally after one NumPy 2 fix (`regr.coef_[0][0]` in the print cell) | 🟩 done: income vs location vs all features, where it fails | What should this home be worth, given what we know about its neighbourhood? |
 | 3-2 | [Logistic regression (class imbalance)](03-2-logistic-regression/) | 🟩 runs clean locally | 🟩 done: alert line set by cost + recommendation | Catching card fraud when almost every transaction is legitimate. Accuracy hides the failure. |
 | 3-3 | [Decision tree](03-3-decision-tree/) | 🟩 runs clean locally (tree pictures fall back to matplotlib without Graphviz) | 🟩 done: depth chosen, error trade-off, plain-English rules | Spotting forged banknotes, and explaining the decision to someone who isn't technical. |
