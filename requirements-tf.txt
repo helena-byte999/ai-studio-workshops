@@ -3,6 +3,7 @@
 #   python3 -m venv .venv-tf && source .venv-tf/bin/activate && pip install -r requirements-tf.txt
 tensorflow
 tensorflow-datasets
+importlib_resources   # tensorflow-datasets needs it on Python 3.14 but does not install it
 pandas
 scikit-learn
 matplotlib

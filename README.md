@@ -1,6 +1,6 @@
 # AI Studio workshops: real-life edition
 
-**Progress: 57% (8 of 14 twists done: 1, 2, 3-1, 3-2, 3-3, 4-1, 4-2, 5)**
+**Progress: 64% (9 of 14 twists done: 1, 2, 3-1, 3-2, 3-3, 4-1, 4-2, 5, 11)**
 
 Coursework for the AI Studio module (KV7004). Each workshop starts from the lecturer's baseline code and is re-pointed at a real-life problem, with a short write-up of what changed and what I learned. The lecturer's PDFs, slides and unmodified notebooks are not published; they live in `_baseline/` (git-ignored).
 
@@ -21,7 +21,7 @@ Status key: 🟩 done or runs · 🟨 partial or needs Colab · 🟥 not done or
 | 8 | [GAN for handwritten digits](08-gan-digits/) | 🟥 no baseline notebook: port from the PDF | 🟥 | Generating synthetic training images when real ones are scarce or can't be shared. |
 | 9 | [Face detection with Haar cascades](09-face-detection/) | 🟨 not run (webcam loops). Needs `opencv-python`; emotion model files and `carplates2.jpg` are missing | 🟥 | Sharing photos without leaking identities: automatically blur faces and number plates (a GDPR-style requirement). |
 | 10 | [Object detection (YOLOv3, Mask R-CNN)](10-object-detection/) | 🟨 untested: YOLO needs Keras + the 248 MB weights; Mask R-CNN needs `mrcnn` + COCO weights + a webcam | 🟥 | How busy is this space? Count people in a café, library or street from a camera frame (occupancy and footfall). |
-| 11 | [Text sentiment with an RNN](11-text-sentiment/) | 🟥 broken on current TensorFlow Datasets (removed subword encoder); being rebuilt | 🟥 | Triage product feedback: which reviews are complaints that support should see first? |
+| 11 | [Text sentiment with an RNN](11-text-sentiment/) | 🟩 ported to current TensorFlow; runs clean locally in `.venv-tf` | 🟩 done: simple model beats the LSTMs; routing view; mistakes read | Triage reviews: which ones are complaints that support should see first, and does a simple model do as well as an LSTM? |
 
 ## Running
 ```bash
