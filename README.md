@@ -1,6 +1,6 @@
 # AI Studio workshops: real-life edition
 
-**Progress: 71% (10 of 14 twists done: 1, 2, 3-1, 3-2, 3-3, 4-1, 4-2, 5, 7, 11)**
+**Progress: 79% (11 of 14 twists done: 1, 2, 3-1, 3-2, 3-3, 4-1, 4-2, 5, 6, 7, 11)**
 
 Coursework for the AI Studio module (KV7004). Each workshop starts from the lecturer's baseline code and is re-pointed at a real-life problem, with a short write-up of what changed and what I learned. The lecturer's PDFs, slides and unmodified notebooks are not published; they live in `_baseline/` (git-ignored).
 
@@ -16,7 +16,7 @@ Status key: 🟩 done or runs · 🟨 partial or needs Colab · 🟥 not done or
 | 4-1 | [K-Means clustering](04-1-kmeans/) | 🟩 runs clean locally (on the workshop's own data; the twist swaps it) | 🟩 done: named segments + actions | Grouping wholesale customers into segments so account managers can treat them differently. |
 | 4-2 | [Principal Component Analysis](04-2-pca/) | 🟩 ported from the PDF; runs clean locally | 🟩 done: components explained + takeaway | Six spending columns are hard to picture and hard to explain. Can two or three numbers tell the same story? |
 | 5 | [Deep neural network for prediction](05-dnn-house-prices/) | 🟩 runs clean locally with a pre-release TensorFlow, and on Colab | 🟩 done: fair comparison; deep network not worth it | Does a home's asking price match the price tier its features suggest, and is a deep network worth it over a plain logistic regression? |
-| 6 | [CNN for image recognition](06-cnn-image-recognition/) | 🟥 no baseline notebook: port from the PDF | 🟥 | Image classification outside CIFAR-10, on something a person would actually need. |
+| 6 | [CNN for image recognition](06-cnn-image-recognition/) | 🟩 ported from the PDF; runs clean in `.venv-tf` (about 12 minutes) | 🟩 done: DJ gear photos; pretrained network 83%, the lecturer's CNN worse than guessing | Which section does a second-hand DJ gear listing belong in (record deck, mixer or digital deck), judged from its photo, with only about 100 labelled photos? |
 | 7 | [LSTM time-series forecasting](07-lstm-time-series/) | 🟩 runs clean in `.venv-tf` after a one-line Keras 3 fix | 🟩 done: London forecasts; LSTM wins only slightly from 6 h out | Forecasting London's temperature from its own past: how good is it, and is an LSTM worth it over simple forecasts? |
 | 8 | [GAN for handwritten digits](08-gan-digits/) | 🟥 no baseline notebook: port from the PDF | 🟥 | Generating synthetic training images when real ones are scarce or can't be shared. |
 | 9 | [Face detection with Haar cascades](09-face-detection/) | 🟨 not run (webcam loops). Needs `opencv-python`; emotion model files and `carplates2.jpg` are missing | 🟥 | Sharing photos without leaking identities: automatically blur faces and number plates (a GDPR-style requirement). |

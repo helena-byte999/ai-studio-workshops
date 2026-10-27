@@ -6,6 +6,9 @@ _baseline/
 *.weights
 *.h5
 
+# trained models: re-created by running the notebook
+*.keras
+
 # sample photos: replace with your own and commit only blurred/anonymised outputs
 09-face-detection/*.jpg
 10-object-detection/*.jpg
@@ -15,3 +18,6 @@ _baseline/
 __pycache__/
 .DS_Store
 .venv-tf/
+
+# downloaded Wikimedia Commons thumbnails (credits in 06-cnn-image-recognition/dj_gear_photos.csv)
+06-cnn-image-recognition/dj_gear_photos/
